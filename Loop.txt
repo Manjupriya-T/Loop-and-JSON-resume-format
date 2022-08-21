@@ -1,0 +1,42 @@
+1. JSON iterate over all for loops
+
+*‘For’ Loop
+	The For Loop comes first because of its simplicity and ease of use.
+	It is a very user-friendly kind of loop that runs with a method of using a counter. 
+eg:
+	var marks = [10, 20, 30, 40, 50];
+	for(let i=0; i<marks.length; i++){
+		console.log( i, marks[i]);
+	}
+
+*‘For In’ Loop
+	Another way of looping is the For In Loop. Unlike the For Loop, this loop won’t be using a counter. So this makes
+	the whole process even more simple and hassle-free. In fact, the For In Loop is essentially a simplified version of the For Loop.
+eg:
+	var player = {
+    name:"Gukesh D",
+    game:"chess",
+    age:16,
+    rating:2699,
+    title:"Grandmaster",
+};
+
+for (var key in player){
+    console.log(key, player[key]);
+}
+
+*'for of' Loop
+	To loop through a JSON array with JavaScript, we can use a for of loop.
+eg:
+	var marks = [ 99, 80, 60, 50]
+for (var val of marks){
+    console.log(val);
+}
+
+*'forEach' Loop
+	This method is used for looping through an array element.
+eg:
+	var marks = [ 99, 80, 60, 50]
+marks.forEach(function (mark){
+    console.log(mark);
+})

@@ -1,0 +1,50 @@
+et myResume={
+    "basics": {
+      "name": "T.Manjupriya",
+      "email": "manjupriya3110@gamil.com",
+      "phone": 9080082291,
+      "degree": "Diploma in IT",
+      "location": {
+        "address": "Melakottaiyur",
+        "postalCode": 600127,
+        "city": "chennai",
+        "state": "Tamilnadu",
+        "country": "India"
+      },
+      "profiles": [
+        {
+          "website": "https://www.linkedin.com/in/manju-priya-996457238/",
+          "github":"https://github.com/Manjupriya-T"
+        }
+      ]
+    },
+   
+    "education": [
+      {
+        "institution": "Sri Balaji Polytechnic college",
+        "department": "ct",
+        "studyType": "fulltime",
+        "batch start year": 2017,
+        "batch end year": 2020,
+      }
+    ],
+    "skills": [
+      {
+        "name": "javascript",
+        "level": "stage 1",
+      }
+    ],
+    "languages": [
+      {
+        "language": "Tamil,Enlish",
+      }
+    ],
+    "interests": [
+      {
+        "name": "reading self developement books",
+      }
+    ]
+}
+  console.log( myResume);
+  console.log(typeof myResume);
+  console.log(JSON.stringify(myResume));
